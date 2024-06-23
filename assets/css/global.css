@@ -1,0 +1,70 @@
+@import url(https://db.onlinewebfonts.com/c/82b778d1b069157bf6b2e32dc4e1e3f1?family=Neue+Machina);
+* {
+    box-sizing: border-box;  /*igualar caixas*/
+    font-family: 'Open-sans', sans-serif;
+}
+@font-face {
+    font-family: "Neue Machina";
+    src: url('/assets/fonts/neue-machina-ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Machina";
+    src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot");
+    src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.svg#Neue Machina")format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+.main::before, .main::after {  /*degradee*/
+    content: '';
+    background-image: url(/assets/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 140vw;
+    height: 100vh;  /*p/ aparecer img*/
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.main::after {
+    content: '';
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+    transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 760px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+    .main::before, .main::after  {
+        width: 70vw;
+    }
+}

@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;  /*elem pai, para os 3 pts*/
+}
+.header::after {  /*3 pontos*/
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/img/icons/header.svg);
+    position: absolute;  /*elem filho, para os 3 pts*/
+    top: 2rem;
+    right: 2rem;
+}
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;  /*p/ funcionar o text-align*/
+}
+.header .title {
+    font-family: "Neue Machina";
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;  /*p/ funcionar o align-items*/
+}
+.information p {
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;  /*18px*/
+}
+.information p::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;  /*linha do bloco*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+.information a {
+    color: #fff;
+    text-decoration: none;
+}
+.information .position::before {  
+    background-image: url(/assets/img/icons/position.svg);
+}
+.information .location::before {
+    background-image: url(/assets/img/icons/location.svg);
+}
+.information .phone::before {
+    background-image: url(/assets/img/icons/phone.svg);
+}
+.information .email::before {
+    background-image: url(/assets/img/icons/email.svg);
+}
+
+@media only screen and (min-width: 760px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+        "photo title"
+        "photo information";
+}
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+    .header .title {
+        grid-area: title;
+        max-width: 210px;
+        text-align: start;
+    }
+    .header .information {
+        grid-area: information;
+    }
+}
