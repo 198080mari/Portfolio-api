@@ -38,31 +38,41 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Spider-man-css-js",
+        "url": "https://github.com/198080mari/Spider-man-com-CSS-e-js",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Pokedex-api",
+        "url": "https://github.com/198080mari/Pokedex-api",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Recepcionista bilíngue/ Royal Palm Resort",
+        "period": "2024 - Até o momento",
+        "description": "Recepção de clientes demonstrando simpatia e prestatividade em prol de um atendimento com excelência. Cadastro de informações pessoais e de estadia dos hóspedes no sistema. Fechamento das contas e do caixa, garantindo o controle do fluxo de caixa."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "name": "Consultora de vendas/ Grupo Animale JK Iguatemi",
+        "period": "Jan 2018 - Jan 2020",
+        "description": "Atendimento dos clientes no segmento de luxo. Decoração das vitrines com itens relacionados à linha de produtos. Aumento das vendas através do entendimento das necessidades dos clientes, batendo as metas estabelecidas com constância."
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Promotora de eventos/ Agências de promoção e marketing",
+        "period": "Jan 2011 - Jan 2018",
+        "description": "Desenvolvimento de ações para garantir a visibilidade de companhias. Responsável por apresentar a empresa nos eventos, sanando possíveis dúvidas do público acerca das ações desenvolvidas."
+      },
+      {
+        "name": "Assistente financeiro/ Ferrari do Brasil",
+        "period": "Jan 2004 - Jan 2009",
+        "description": "Gerenciamento de contas a pagar e receber, emissão de boletos, elaboração de relatórios financeiro, pagamento de taxas e impostos, folha de pagamento, etc."
+      },
+      {
+        "name": "Estagiária/ Gráfica e Editora Capuano",
+        "period": "Mar 2004 - Jan 2004",
+        "description": "Atividades relacionadas a departamento pessoal, folha de pagamento, admissões e demissões, férias, benefícios, atestados e afastamentos, e registros de ponto. Atividades administrativas, verificação de prazos de vencimento, e entradas e saídas de notas fiscais."
       }
     ]
   }
