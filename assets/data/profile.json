@@ -22,6 +22,14 @@
         {
           "name": "Nodejs",
           "logo": "https://raw.githubusercontent.com/198080mari/Portfolio-api/main/assets/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
+        },
+        {
+          "name": "Sql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/sql.png"
         }
       ],
       "softSkills": [
